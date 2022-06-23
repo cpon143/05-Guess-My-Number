@@ -23,9 +23,9 @@ document.querySelector('.check').addEventListener
         document.querySelector('.message').textContent ='🎉 Correct answer!';
     }
     else if(guess>secretNumber){
-        document.querySelector('.message').textContent= '📈 Too high';
+        document.querySelector('.message').textContent= '📈 Too high!';
     }
     else if(guess<secretNumber){
-        document.querySelector('.message').textContent='📉 Too low';
+        document.querySelector('.message').textContent='📉 Too low!';
     }
 });
